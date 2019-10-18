@@ -1,0 +1,63 @@
+.config
+*.o
+*.pyc
+*.a
+*.d
+*.exe
+*.bak
+*.vs/
+
+debug/
+.vscode/
+.pio/
+.pioenvs/
+.piolibdeps/
+.browse.c_cpp.db
+.browse.c_cpp.db-shm
+.browse.c_cpp.db-wal
+.browse.vc.db
+.browse.vc.db-shm
+.browse.vc.db-wal
+browse.vc.db
+browse.vc.db-shm
+browse.vc.db-wal
+
+tools/xtensa-esp32-elf
+tools/dist
+tools/esptool
+tools/esptool.exe
+tools/mkspiffs/mkspiffs
+tools/mkspiffs/mkspiffs.exe
+.DS_Store
+
+
+#Linux
+*.directory
+
+# VS2017
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
